@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://monochrome.st/api/$1"
+    },
+    {
+      "source": "/stream/(.*)",
+      "destination": "https://monochrome.st/stream/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
